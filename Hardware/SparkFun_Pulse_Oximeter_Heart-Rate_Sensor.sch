@@ -382,6 +382,188 @@ Outline</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Power">
+<description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
+In this library you'll find anything that has to do with power delivery, or making power supplies.
+&lt;p&gt;Contents:
+&lt;ul&gt;&lt;li&gt;LDOs&lt;/li&gt;
+&lt;li&gt;Boost/Buck controllers&lt;/li&gt;
+&lt;li&gt;Charge pump controllers&lt;/li&gt;
+&lt;li&gt;Power sequencers&lt;/li&gt;
+&lt;li&gt;Power switches&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SC70">
+<description>&lt;h3&gt;SC-70&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 5&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.exar.com/content/document.ashx?id=654”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;V_REG_SP6214&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
+<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
+<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
+<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
+<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+</package>
+<package name="MSOP8">
+<description>&lt;b&gt;8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package&lt;/b&gt;&lt;p&gt;
+MSOP&lt;br&gt;
+8M-Package doc1097.pdf</description>
+<wire x1="-1.48" y1="1.23" x2="-1.23" y2="1.48" width="0.1524" layer="21" curve="-90" cap="flat"/>
+<wire x1="1.23" y1="1.48" x2="1.48" y2="1.23" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.23" y1="-1.49" x2="1.48" y2="-1.24" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.48" y1="-1.24" x2="-1.23" y2="-1.49" width="0.1524" layer="21" curve="90" cap="flat"/>
+<wire x1="1.24" y1="-1.49" x2="-1.22" y2="-1.49" width="0.1524" layer="21"/>
+<wire x1="-1.22" y1="1.48" x2="1.24" y2="1.48" width="0.1524" layer="21"/>
+<wire x1="-1.48" y1="1.23" x2="-1.48" y2="-1.23" width="0.1524" layer="21"/>
+<wire x1="1.48" y1="-1.24" x2="1.48" y2="1.23" width="0.1524" layer="21"/>
+<smd name="1" x="-0.975" y="-2.25" dx="0.4" dy="1.1" layer="1"/>
+<smd name="2" x="-0.325" y="-2.25" dx="0.4" dy="1.1" layer="1"/>
+<smd name="3" x="0.325" y="-2.25" dx="0.4" dy="1.1" layer="1"/>
+<smd name="4" x="0.975" y="-2.25" dx="0.4" dy="1.1" layer="1"/>
+<smd name="5" x="0.975" y="2.25" dx="0.4" dy="1.1" layer="1"/>
+<smd name="6" x="0.325" y="2.25" dx="0.4" dy="1.1" layer="1"/>
+<smd name="7" x="-0.325" y="2.25" dx="0.4" dy="1.1" layer="1"/>
+<smd name="8" x="-0.975" y="2.25" dx="0.4" dy="1.1" layer="1"/>
+<text x="-2.54" y="-1.27" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.175" y1="-2.45" x2="-0.775" y2="-1.55" layer="51"/>
+<rectangle x1="-0.525" y1="-2.45" x2="-0.125" y2="-1.55" layer="51"/>
+<rectangle x1="0.125" y1="-2.45" x2="0.525" y2="-1.55" layer="51"/>
+<rectangle x1="0.775" y1="-2.45" x2="1.175" y2="-1.55" layer="51"/>
+<rectangle x1="0.775" y1="1.55" x2="1.175" y2="2.45" layer="51"/>
+<rectangle x1="0.125" y1="1.55" x2="0.525" y2="2.45" layer="51"/>
+<rectangle x1="-0.525" y1="1.55" x2="-0.125" y2="2.45" layer="51"/>
+<rectangle x1="-1.175" y1="1.55" x2="-0.775" y2="2.45" layer="51"/>
+<circle x="-1.6256" y="-2.0574" radius="0.091578125" width="0.4064" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="V-REG-LDO_NO-BP">
+<description>&lt;h3&gt; Voltage Regulator - No bypass&lt;/h3&gt;
+5  pin, with Enable function.</description>
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="NC" x="7.62" y="-5.08" visible="pin" length="short" direction="nc" rot="R180"/>
+</symbol>
+<symbol name="PAM2401">
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="AGND" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="EN" x="-12.7" y="-5.08" length="short"/>
+<pin name="FB" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="LX" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="OUT" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PGND" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="RSET" x="-12.7" y="-10.16" length="short"/>
+<pin name="VIN" x="-12.7" y="10.16" length="short"/>
+<text x="-5.08" y="14.224" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.826" y="-16.002" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="V_REG_SP6214" prefix="U">
+<description>&lt;h3&gt;Voltage Regulator - SP6214&lt;/h3&gt;
+&lt;p&gt;SP6214 Series SC-70-5 Micropower SC-70 100 mA CMOS LDO Regulator
+&lt;br&gt;&lt;a href=”https://www.exar.com/content/document.ashx?id=654”&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13720”&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/14045”&gt;SparkFun Particle Sensor Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="V-REG-LDO_NO-BP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1.8V" package="SC70">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-08428" constant="no"/>
+<attribute name="VALUE" value="1.8V/100mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAM2401">
+<description>&lt;h3&gt;PAM2401 - Boost PMIC&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Up to 1A output current&lt;/li&gt;
+&lt;li&gt;0.9V to 4.75V Input Range &lt;/li&gt;
+&lt;li&gt;2.5V to 5.0V Adjustable Output Voltage&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.diodes.com/assets/Datasheets/PAM2401.pdf”&gt;Datasheet&lt;/a&gt; (Diodes inc.)&lt;/p&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PAM2401" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSOP8">
+<connects>
+<connect gate="G$1" pin="AGND" pad="4"/>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="LX" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="PGND" pad="8"/>
+<connect gate="G$1" pin="RSET" pad="6"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13769" constant="no"/>
+<attribute name="VALUE" value="PAM2401" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="temp">
 <packages>
 <package name="14_PIN_OESIP">
@@ -393,48 +575,48 @@ Outline</text>
 &lt;li&gt;14 pin - 8mm Pitch&lt;/li&gt;
 &lt;li&gt;OESIP&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="3.3" y1="0" x2="3.3" y2="5.6" width="0.1" layer="51"/>
-<wire x1="3.3" y1="5.6" x2="0" y2="5.6" width="0.1" layer="51"/>
-<wire x1="0" y1="5.6" x2="0" y2="0" width="0.1" layer="51"/>
-<wire x1="0" y1="0" x2="3.3" y2="0" width="0.1" layer="51"/>
-<smd name="P1" x="0.445" y="5.199" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P2" x="0.445" y="4.399" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P3" x="0.445" y="3.599" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P4" x="0.445" y="2.799" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P5" x="0.445" y="1.999" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P6" x="0.445" y="1.199" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P7" x="0.445" y="0.399" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P8" x="2.845" y="0.399" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P9" x="2.845" y="1.199" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P10" x="2.845" y="1.999" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P11" x="2.845" y="2.799" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P12" x="2.845" y="3.599" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P13" x="2.845" y="4.399" dx="0.75" dy="0.35" layer="1"/>
-<smd name="P14" x="2.845" y="5.199" dx="0.75" dy="0.35" layer="1"/>
-<circle x="-0.403" y="5.998" radius="0.188" width="0" layer="21"/>
-<text x="-1" y="6" size="1" layer="25">&gt;NAME</text>
-<text x="-1" y="-1.397" size="1" layer="27">&gt;VALUE</text>
-<wire x1="3.401" y1="-0.071" x2="3.401" y2="5.687" width="0.1" layer="41"/>
-<wire x1="3.399" y1="5.698" x2="-0.1" y2="5.698" width="0.1" layer="41"/>
-<wire x1="-0.1" y1="5.698" x2="-0.099" y2="-0.102" width="0.1" layer="41"/>
-<wire x1="-0.099" y1="-0.102" x2="3.402" y2="-0.101" width="0.1" layer="41"/>
-<wire x1="3.402" y1="-0.101" x2="3.401" y2="-0.063" width="0.1" layer="41"/>
-<wire x1="0.915" y1="4.99" x2="2.385" y2="4.99" width="0.1" layer="51"/>
-<wire x1="2.385" y1="4.99" x2="2.635" y2="4.74" width="0.1" layer="51" curve="-90"/>
-<wire x1="2.635" y1="4.74" x2="2.635" y2="2.49" width="0.1" layer="51"/>
-<wire x1="2.635" y1="2.49" x2="2.385" y2="2.24" width="0.1" layer="51" curve="-90"/>
-<wire x1="2.385" y1="2.24" x2="0.915" y2="2.24" width="0.1" layer="51"/>
-<wire x1="0.915" y1="2.24" x2="0.665" y2="2.49" width="0.1" layer="51" curve="-90"/>
-<wire x1="0.665" y1="2.49" x2="0.665" y2="4.74" width="0.1" layer="51"/>
-<wire x1="0.665" y1="4.74" x2="0.915" y2="4.99" width="0.1" layer="51" curve="-90"/>
-<wire x1="2.38" y1="0.614" x2="0.91" y2="0.614" width="0.1" layer="51"/>
-<wire x1="0.91" y1="0.614" x2="0.66" y2="0.864" width="0.1" layer="51" curve="-90"/>
-<wire x1="0.66" y1="0.864" x2="0.66" y2="1.458" width="0.1" layer="51"/>
-<wire x1="2.38" y1="0.614" x2="2.63" y2="0.864" width="0.1" layer="51" curve="90"/>
-<wire x1="2.63" y1="0.864" x2="2.63" y2="1.458" width="0.1" layer="51"/>
-<wire x1="0.66" y1="1.458" x2="0.91" y2="1.708" width="0.1" layer="51" curve="-90"/>
-<wire x1="2.63" y1="1.458" x2="2.38" y2="1.708" width="0.1" layer="51" curve="90"/>
-<wire x1="2.38" y1="1.708" x2="0.91" y2="1.708" width="0.1" layer="51"/>
+<wire x1="1.662459375" y1="-2.790190625" x2="1.662459375" y2="2.809809375" width="0.1" layer="51"/>
+<wire x1="1.662459375" y1="2.809809375" x2="-1.637540625" y2="2.809809375" width="0.1" layer="51"/>
+<wire x1="-1.637540625" y1="2.809809375" x2="-1.637540625" y2="-2.790190625" width="0.1" layer="51"/>
+<wire x1="-1.637540625" y1="-2.790190625" x2="1.662459375" y2="-2.790190625" width="0.1" layer="51"/>
+<smd name="P1" x="-1.192540625" y="2.408809375" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P2" x="-1.192540625" y="1.608809375" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P3" x="-1.192540625" y="0.808809375" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P4" x="-1.192540625" y="0.008809375" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P5" x="-1.192540625" y="-0.791190625" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P6" x="-1.192540625" y="-1.591190625" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P7" x="-1.192540625" y="-2.391190625" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P8" x="1.207459375" y="-2.391190625" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P9" x="1.207459375" y="-1.591190625" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P10" x="1.207459375" y="-0.791190625" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P11" x="1.207459375" y="0.008809375" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P12" x="1.207459375" y="0.808809375" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P13" x="1.207459375" y="1.608809375" dx="0.75" dy="0.35" layer="1"/>
+<smd name="P14" x="1.207459375" y="2.408809375" dx="0.75" dy="0.35" layer="1"/>
+<circle x="-2.040540625" y="3.207809375" radius="0.188" width="0" layer="21"/>
+<text x="-2.637540625" y="3.209809375" size="1" layer="25">&gt;NAME</text>
+<text x="-2.637540625" y="-4.187190625" size="1" layer="27">&gt;VALUE</text>
+<wire x1="1.763459375" y1="-2.861190625" x2="1.763459375" y2="2.896809375" width="0.1" layer="41"/>
+<wire x1="1.761459375" y1="2.907809375" x2="-1.737540625" y2="2.907809375" width="0.1" layer="41"/>
+<wire x1="-1.737540625" y1="2.907809375" x2="-1.736540625" y2="-2.892190625" width="0.1" layer="41"/>
+<wire x1="-1.736540625" y1="-2.892190625" x2="1.764459375" y2="-2.891190625" width="0.1" layer="41"/>
+<wire x1="1.764459375" y1="-2.891190625" x2="1.763459375" y2="-2.853190625" width="0.1" layer="41"/>
+<wire x1="-0.722540625" y1="2.199809375" x2="0.747459375" y2="2.199809375" width="0.1" layer="51"/>
+<wire x1="0.747459375" y1="2.199809375" x2="0.997459375" y2="1.949809375" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.997459375" y1="1.949809375" x2="0.997459375" y2="-0.300190625" width="0.1" layer="51"/>
+<wire x1="0.997459375" y1="-0.300190625" x2="0.747459375" y2="-0.550190625" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.747459375" y1="-0.550190625" x2="-0.722540625" y2="-0.550190625" width="0.1" layer="51"/>
+<wire x1="-0.722540625" y1="-0.550190625" x2="-0.972540625" y2="-0.300190625" width="0.1" layer="51" curve="-90"/>
+<wire x1="-0.972540625" y1="-0.300190625" x2="-0.972540625" y2="1.949809375" width="0.1" layer="51"/>
+<wire x1="-0.972540625" y1="1.949809375" x2="-0.722540625" y2="2.199809375" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.742459375" y1="-2.176190625" x2="-0.727540625" y2="-2.176190625" width="0.1" layer="51"/>
+<wire x1="-0.727540625" y1="-2.176190625" x2="-0.977540625" y2="-1.926190625" width="0.1" layer="51" curve="-90"/>
+<wire x1="-0.977540625" y1="-1.926190625" x2="-0.977540625" y2="-1.332190625" width="0.1" layer="51"/>
+<wire x1="0.742459375" y1="-2.176190625" x2="0.992459375" y2="-1.926190625" width="0.1" layer="51" curve="90"/>
+<wire x1="0.992459375" y1="-1.926190625" x2="0.992459375" y2="-1.332190625" width="0.1" layer="51"/>
+<wire x1="-0.977540625" y1="-1.332190625" x2="-0.727540625" y2="-1.082190625" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.992459375" y1="-1.332190625" x2="0.742459375" y2="-1.082190625" width="0.1" layer="51" curve="90"/>
+<wire x1="0.742459375" y1="-1.082190625" x2="-0.727540625" y2="-1.082190625" width="0.1" layer="51"/>
 </package>
 <package name="16_PIN_WLP">
 <description>&lt;h3&gt;16_PIN_WLP&lt;/h3&gt;
@@ -446,68 +628,68 @@ Physical Characteristics
 &lt;li&gt;.35mm pitch&lt;/li&gt;
 &lt;li&gt;WLP Package&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="0" y1="1.572" x2="0" y2="0.0181" width="0.1" layer="51"/>
-<wire x1="1.572" y1="1.572" x2="1.572" y2="0.0181" width="0.1" layer="51"/>
-<wire x1="0.0007" y1="1.572" x2="1.572" y2="1.572" width="0.1" layer="51"/>
-<wire x1="0.0007" y1="0" x2="1.572" y2="0" width="0.1" layer="51"/>
-<smd name="P$1" x="0.26" y="1.3" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$2" x="0.61" y="1.3" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$3" x="0.96" y="1.3" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$4" x="1.31" y="1.3" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$5" x="1.31" y="0.95" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$6" x="1.31" y="0.6" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$7" x="1.31" y="0.25" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$8" x="0.96" y="0.25" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$9" x="0.61" y="0.25" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$10" x="0.26" y="0.25" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$11" x="0.26" y="0.6" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$12" x="0.26" y="0.95" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$13" x="0.61" y="0.95" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$14" x="0.96" y="0.95" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$15" x="0.96" y="0.6" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$16" x="0.61" y="0.6" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<circle x="0.26" y="0.25" radius="0.11" width="0" layer="29"/>
-<circle x="0.61" y="0.25" radius="0.11" width="0" layer="29"/>
-<circle x="0.96" y="0.25" radius="0.11" width="0" layer="29"/>
-<circle x="1.31" y="0.25" radius="0.11" width="0" layer="29"/>
-<circle x="1.31" y="0.6" radius="0.11" width="0" layer="29"/>
-<circle x="0.96" y="0.6" radius="0.11" width="0" layer="29"/>
-<circle x="0.61" y="0.6" radius="0.11" width="0" layer="29"/>
-<circle x="0.26" y="0.6" radius="0.11" width="0" layer="29"/>
-<circle x="0.26" y="0.95" radius="0.11" width="0" layer="29"/>
-<circle x="0.61" y="0.95" radius="0.11" width="0" layer="29"/>
-<circle x="0.96" y="0.95" radius="0.11" width="0" layer="29"/>
-<circle x="1.31" y="0.95" radius="0.11" width="0" layer="29"/>
-<circle x="1.31" y="1.3" radius="0.11" width="0" layer="29"/>
-<circle x="0.96" y="1.3" radius="0.11" width="0" layer="29"/>
-<circle x="0.61" y="1.3" radius="0.11" width="0" layer="29"/>
-<circle x="0.26" y="1.3" radius="0.11" width="0" layer="29"/>
-<circle x="-0.5" y="2" radius="0.14141875" width="0" layer="21"/>
-<text x="0" y="2" size="1" layer="25">&gt;NAME</text>
-<text x="0" y="-1.5" size="1" layer="27">&gt;VALUE</text>
-<wire x1="-0.11" y1="-0.11" x2="1.68" y2="-0.11" width="0.1" layer="39"/>
-<wire x1="1.68" y1="-0.11" x2="1.68" y2="1.68" width="0.1" layer="39"/>
-<wire x1="1.68" y1="1.68" x2="-0.11" y2="1.68" width="0.1" layer="39"/>
-<wire x1="-0.11" y1="1.68" x2="-0.11" y2="-0.11" width="0.1" layer="39"/>
+<wire x1="-0.792" y1="0.79" x2="-0.792" y2="-0.7639" width="0.1" layer="51"/>
+<wire x1="0.78" y1="0.79" x2="0.78" y2="-0.7639" width="0.1" layer="51"/>
+<wire x1="-0.7913" y1="0.79" x2="0.78" y2="0.79" width="0.1" layer="51"/>
+<wire x1="-0.7913" y1="-0.782" x2="0.78" y2="-0.782" width="0.1" layer="51"/>
+<smd name="P$1" x="-0.532" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$2" x="-0.182" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$3" x="0.168" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$4" x="0.518" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$5" x="0.518" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$6" x="0.518" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$7" x="0.518" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$8" x="0.168" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$9" x="-0.182" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$10" x="-0.532" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$11" x="-0.532" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$12" x="-0.532" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$13" x="-0.182" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$14" x="0.168" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$15" x="0.168" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="P$16" x="-0.182" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<circle x="-0.532" y="-0.532" radius="0.11" width="0" layer="29"/>
+<circle x="-0.182" y="-0.532" radius="0.11" width="0" layer="29"/>
+<circle x="0.168" y="-0.532" radius="0.11" width="0" layer="29"/>
+<circle x="0.518" y="-0.532" radius="0.11" width="0" layer="29"/>
+<circle x="0.518" y="-0.182" radius="0.11" width="0" layer="29"/>
+<circle x="0.168" y="-0.182" radius="0.11" width="0" layer="29"/>
+<circle x="-0.182" y="-0.182" radius="0.11" width="0" layer="29"/>
+<circle x="-0.532" y="-0.182" radius="0.11" width="0" layer="29"/>
+<circle x="-0.532" y="0.168" radius="0.11" width="0" layer="29"/>
+<circle x="-0.182" y="0.168" radius="0.11" width="0" layer="29"/>
+<circle x="0.168" y="0.168" radius="0.11" width="0" layer="29"/>
+<circle x="0.518" y="0.168" radius="0.11" width="0" layer="29"/>
+<circle x="0.518" y="0.518" radius="0.11" width="0" layer="29"/>
+<circle x="0.168" y="0.518" radius="0.11" width="0" layer="29"/>
+<circle x="-0.182" y="0.518" radius="0.11" width="0" layer="29"/>
+<circle x="-0.532" y="0.518" radius="0.11" width="0" layer="29"/>
+<circle x="-1.292" y="1.218" radius="0.14141875" width="0" layer="21"/>
+<text x="-0.792" y="1.218" size="1" layer="25">&gt;NAME</text>
+<text x="-0.792" y="-2.282" size="1" layer="27">&gt;VALUE</text>
+<wire x1="-0.902" y1="-0.892" x2="0.888" y2="-0.892" width="0.1" layer="39"/>
+<wire x1="0.888" y1="-0.892" x2="0.888" y2="0.898" width="0.1" layer="39"/>
+<wire x1="0.888" y1="0.898" x2="-0.902" y2="0.898" width="0.1" layer="39"/>
+<wire x1="-0.902" y1="0.898" x2="-0.902" y2="-0.892" width="0.1" layer="39"/>
 </package>
 </packages>
 <symbols>
 <symbol name="MAX30101">
 <description>&lt;h3&gt;MAX30101 Heart Rate Sensor and Oximeter&lt;/h3&gt;
 &lt;p&gt;&lt;/p&gt;</description>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="NC" x="17.78" y="-5.08" length="middle" direction="nc" rot="R180"/>
-<pin name="VDD" x="-12.7" y="5.08" length="middle" direction="pwr"/>
-<pin name="GND" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
-<pin name="!INT" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="SDA" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="SCL" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="VDD_LED" x="-12.7" y="2.54" length="middle" direction="pwr"/>
-<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="NC" x="15.24" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="VDD" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
+<pin name="!INT" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="SDA" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="SCL" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="VDD_LED" x="-15.24" y="2.54" length="middle" direction="pwr"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="MAX32664">
 <description>&lt;h3&gt;MAX32644 Version A Biometric Sensor Hub&lt;/h3&gt;</description>
@@ -619,107 +801,6 @@ sensor for wearable health for finger-based applications.
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-IC-Power">
-<description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
-In this library you'll find anything that has to do with power delivery, or making power supplies.
-&lt;p&gt;Contents:
-&lt;ul&gt;&lt;li&gt;LDOs&lt;/li&gt;
-&lt;li&gt;Boost/Buck controllers&lt;/li&gt;
-&lt;li&gt;Charge pump controllers&lt;/li&gt;
-&lt;li&gt;Power sequencers&lt;/li&gt;
-&lt;li&gt;Power switches&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SC70">
-<description>&lt;h3&gt;SC-70&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 5&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://www.exar.com/content/document.ashx?id=654”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;V_REG_SP6214&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
-<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.27" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
-<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
-<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
-<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
-<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="V-REG-LDO_NO-BP">
-<description>&lt;h3&gt; Voltage Regulator - No bypass&lt;/h3&gt;
-5  pin, with Enable function.</description>
-<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
-<pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
-<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
-<pin name="NC" x="7.62" y="-5.08" visible="pin" length="short" direction="nc" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="V_REG_SP6214" prefix="U">
-<description>&lt;h3&gt;Voltage Regulator - SP6214&lt;/h3&gt;
-&lt;p&gt;SP6214 Series SC-70-5 Micropower SC-70 100 mA CMOS LDO Regulator
-&lt;br&gt;&lt;a href=”https://www.exar.com/content/document.ashx?id=654”&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13720”&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/14045”&gt;SparkFun Particle Sensor Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="V-REG-LDO_NO-BP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-1.8V" package="SC70">
-<connects>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="NC" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="VREG-08428" constant="no"/>
-<attribute name="VALUE" value="1.8V/100mA" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -732,9 +813,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U$1" library="SparkX" deviceset="QWIIC_BOARD_OUTLINE" device="NH"/>
+<part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_SP6214" device="-1.8V" value="1.8V/100mA"/>
+<part name="U$2" library="SparkFun-IC-Power" deviceset="PAM2401" device="" value="PAM2401"/>
 <part name="U1" library="temp" deviceset="MAX30101EFD+T" device=""/>
 <part name="U2" library="temp" deviceset="MAX32664GWEA+T" device=""/>
-<part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_SP6214" device="-1.8V" value="1.8V/100mA"/>
 </parts>
 <sheets>
 <sheet>
@@ -752,17 +834,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
 <instance part="U$1" gate="G$1" x="231.14" y="40.64" smashed="yes"/>
-<instance part="U1" gate="G$1" x="78.74" y="147.32" smashed="yes">
-<attribute name="NAME" x="71.12" y="157.48" size="1.778" layer="95"/>
-<attribute name="VALUE" x="71.12" y="134.62" size="1.778" layer="96"/>
-</instance>
-<instance part="U2" gate="G$1" x="167.64" y="147.32" smashed="yes">
-<attribute name="NAME" x="157.48" y="167.64" size="1.778" layer="95"/>
-<attribute name="VALUE" x="157.48" y="127" size="1.778" layer="96"/>
-</instance>
 <instance part="U3" gate="G$1" x="53.34" y="96.52" smashed="yes">
 <attribute name="NAME" x="45.72" y="104.394" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="45.72" y="88.646" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="U$2" gate="G$1" x="127" y="81.28" smashed="yes">
+<attribute name="NAME" x="121.92" y="95.504" size="1.778" layer="95"/>
+<attribute name="VALUE" x="122.174" y="65.278" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$1" x="88.9" y="137.16" smashed="yes">
+<attribute name="NAME" x="78.74" y="147.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="78.74" y="124.46" size="1.778" layer="96"/>
+</instance>
+<instance part="U2" gate="G$1" x="152.4" y="139.7" smashed="yes">
+<attribute name="NAME" x="142.24" y="160.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="142.24" y="119.38" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
