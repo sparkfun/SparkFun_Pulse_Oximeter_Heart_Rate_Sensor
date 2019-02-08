@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -127,22 +127,22 @@ Physical Characteristics
 <wire x1="0.78" y1="0.79" x2="0.78" y2="-0.7639" width="0.1" layer="51"/>
 <wire x1="-0.7913" y1="0.79" x2="0.78" y2="0.79" width="0.1" layer="51"/>
 <wire x1="-0.7913" y1="-0.782" x2="0.78" y2="-0.782" width="0.1" layer="51"/>
-<smd name="P$1" x="-0.532" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$2" x="-0.182" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$3" x="0.168" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$4" x="0.518" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$5" x="0.518" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$6" x="0.518" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$7" x="0.518" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$8" x="0.168" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$9" x="-0.182" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$10" x="-0.532" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$11" x="-0.532" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$12" x="-0.532" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$13" x="-0.182" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$14" x="0.168" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$15" x="0.168" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
-<smd name="P$16" x="-0.182" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="1" x="-0.532" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="2" x="-0.182" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="3" x="0.168" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="4" x="0.518" y="0.518" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="5" x="0.518" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="6" x="0.518" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="7" x="0.518" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="8" x="0.168" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="9" x="-0.182" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="10" x="-0.532" y="-0.532" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="11" x="-0.532" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="12" x="-0.532" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="13" x="-0.182" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="14" x="0.168" y="0.168" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="15" x="0.168" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
+<smd name="16" x="-0.182" y="-0.182" dx="0.22" dy="0.22" layer="1" roundness="100" stop="no"/>
 <circle x="-0.532" y="-0.532" radius="0.11" width="0" layer="29"/>
 <circle x="-0.182" y="-0.532" radius="0.11" width="0" layer="29"/>
 <circle x="0.168" y="-0.532" radius="0.11" width="0" layer="29"/>
@@ -271,20 +271,20 @@ sensor for wearable health for finger-based applications.
 <devices>
 <device name="" package="16_PIN_WLP">
 <connects>
-<connect gate="G$1" pin="!MFIO" pad="P$16"/>
-<connect gate="G$1" pin="!RST" pad="P$12"/>
-<connect gate="G$1" pin="ACCEL_INT" pad="P$15"/>
-<connect gate="G$1" pin="GND" pad="P$13"/>
-<connect gate="G$1" pin="HR_INT" pad="P$6"/>
-<connect gate="G$1" pin="NC" pad="P$7 P$8 P$11"/>
-<connect gate="G$1" pin="OSC_IN" pad="P$2"/>
-<connect gate="G$1" pin="OSC_OUT" pad="P$1"/>
-<connect gate="G$1" pin="SLAVE_SCL" pad="P$10"/>
-<connect gate="G$1" pin="SLAVE_SDA" pad="P$9"/>
-<connect gate="G$1" pin="SNSR_SCL" pad="P$5"/>
-<connect gate="G$1" pin="SNSR_SDA" pad="P$14"/>
-<connect gate="G$1" pin="VCORE" pad="P$4"/>
-<connect gate="G$1" pin="VDD" pad="P$3"/>
+<connect gate="G$1" pin="!MFIO" pad="16"/>
+<connect gate="G$1" pin="!RST" pad="12"/>
+<connect gate="G$1" pin="ACCEL_INT" pad="15"/>
+<connect gate="G$1" pin="GND" pad="13"/>
+<connect gate="G$1" pin="HR_INT" pad="6"/>
+<connect gate="G$1" pin="NC" pad="7 8 11"/>
+<connect gate="G$1" pin="OSC_IN" pad="2"/>
+<connect gate="G$1" pin="OSC_OUT" pad="1"/>
+<connect gate="G$1" pin="SLAVE_SCL" pad="10"/>
+<connect gate="G$1" pin="SLAVE_SDA" pad="9"/>
+<connect gate="G$1" pin="SNSR_SCL" pad="5"/>
+<connect gate="G$1" pin="SNSR_SDA" pad="14"/>
+<connect gate="G$1" pin="VCORE" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
