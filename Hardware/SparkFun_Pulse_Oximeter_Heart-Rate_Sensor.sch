@@ -19695,7 +19695,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="195.58" y="63.754" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="195.58" y="71.628" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="LOGO1" gate="G$1" x="205.74" y="40.64" smashed="yes"/>
+<instance part="LOGO1" gate="G$1" x="203.2" y="40.64" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="228.6" y="48.26" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="139.7" y="35.56" smashed="yes"/>
 <instance part="FD1" gate="G$1" x="228.6" y="25.4" smashed="yes"/>
