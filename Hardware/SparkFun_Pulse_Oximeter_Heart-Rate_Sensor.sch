@@ -19299,7 +19299,7 @@ Physical Characteristics
 <circle x="0.168" y="0.518" radius="0.11" width="0" layer="29"/>
 <circle x="-0.182" y="0.518" radius="0.11" width="0" layer="29"/>
 <circle x="-0.532" y="0.518" radius="0.11" width="0" layer="29"/>
-<circle x="-1.292" y="1.218" radius="0.14141875" width="0" layer="21"/>
+<circle x="-1.165" y="1.091" radius="0.14141875" width="0" layer="21"/>
 <text x="-0.792" y="1.218" size="1" layer="25">&gt;NAME</text>
 <text x="-0.792" y="-2.282" size="1" layer="27">&gt;VALUE</text>
 <wire x1="-0.902" y1="-0.892" x2="0.888" y2="-0.892" width="0.1" layer="39"/>
