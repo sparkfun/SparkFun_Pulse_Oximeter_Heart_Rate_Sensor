@@ -41,8 +41,8 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -86,7 +86,7 @@
 <layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -154,6 +154,11 @@
 <wire x1="25.4" y1="12.7" x2="25.4" y2="0" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="22.352" y="-10.16" size="1.778" layer="51" font="vector">Elias Santistevan</text>
+<text x="7.807959375" y="0.25908125" size="0.762" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
+<text x="-23.368" y="-25.4" size="2.032" layer="51" font="vector">Via on Pad for small BGA</text>
+<dimension x1="25.4" y1="12.7" x2="0" y2="12.7" x3="12.7" y3="18.034" textsize="2.54" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="25.4" y1="0" x2="25.4" y2="12.7" x3="32.766" y3="6.35" textsize="2.54" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<text x="-1.524" y="23.114" size="2.54" layer="47" font="vector" ratio="15">Measurments in Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -972,6 +977,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Devices using:
 &lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="ORDERING_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.&lt;/p&gt;
+&lt;p&gt;(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)&lt;/p&gt;
+&lt;p&gt;Use 0.7" Vector font @ 8% ratio</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
 </package>
 </packages>
 </library>
@@ -4449,6 +4469,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$6" library="RST_BAR" package="#RST0" value="" x="1.55701875" y="11.407140625" smashed="yes"/>
 <element name="U$5" library="Labels" package="GND-03" value="" x="1.59511875" y="1.22681875" smashed="yes"/>
 <element name="U$20" library="SDA_TOP" package="SDA0" value="" x="1.68401875" y="6.29411875" smashed="yes"/>
+<element name="LOGO4" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="-24.892" y="-11.43" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -4876,6 +4897,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="5,1,61d365de07aa7013"/>
 <approved hash="5,16,e08d951edaf4af2b"/>
 <approved hash="5,16,61d365de07aa7013"/>
+<approved hash="23,1,bd837f437f02bdc2"/>
+<approved hash="23,1,b248ac2b104a7148"/>
+<approved hash="23,1,9ba598e4eb24a025"/>
+<approved hash="23,1,82feebbeeb488208"/>
+<approved hash="23,1,be0cfcccffbbbd7b"/>
+<approved hash="23,1,4bf6fa36faa64b66"/>
+<approved hash="23,1,0daa6acb2c6d2d6a"/>
+<approved hash="23,1,57c4b404b50156c1"/>
+<approved hash="23,1,18e29992989019e0"/>
+<approved hash="23,1,a1d96808a88aa8e0"/>
 </errors>
 </board>
 </drawing>
