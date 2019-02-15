@@ -19591,7 +19591,7 @@ sensor for wearable health for finger-based applications.
 <text x="165.1" y="7.62" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
 <text x="139.7" y="167.64" size="1.27" layer="97" font="vector">VCC Range: 1.71 - 3.63V</text>
-<text x="142.24" y="116.84" size="1.27" layer="97" font="vector">Address: 0x55</text>
+<text x="139.7" y="116.84" size="1.27" layer="97" font="vector">I2C Address: 0x55</text>
 <wire x1="0" y1="111.76" x2="104.14" y2="111.76" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="104.14" y1="111.76" x2="193.04" y2="111.76" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="193.04" y1="111.76" x2="248.92" y2="111.76" width="0.2032" layer="97" style="shortdash"/>
