@@ -159,6 +159,7 @@
 <dimension x1="25.4" y1="12.7" x2="0" y2="12.7" x3="12.7" y3="18.034" textsize="2.54" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="25.4" y1="0" x2="25.4" y2="12.7" x3="32.766" y3="6.35" textsize="2.54" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <text x="-1.524" y="23.114" size="2.54" layer="47" font="vector" ratio="15">Measurments in Inches</text>
+<text x="-23.368" y="-28.448" size="1.778" layer="51" font="vector">.5oz Copper</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1027,7 +1028,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.2032" layer="21"/>
 <smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
 <smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
 <smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
@@ -1041,10 +1042,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
 <rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.2032" layer="21"/>
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.2032" layer="21"/>
 </package>
 <package name="MSOP8">
 <description>&lt;b&gt;8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package&lt;/b&gt;&lt;p&gt;
@@ -3556,13 +3557,17 @@ Physical Characteristics
 <circle x="0.168" y="0.518" radius="0.11" width="0" layer="29"/>
 <circle x="-0.182" y="0.518" radius="0.11" width="0" layer="29"/>
 <circle x="-0.532" y="0.518" radius="0.11" width="0" layer="29"/>
-<circle x="-1.165" y="1.091" radius="0.14141875" width="0" layer="21"/>
+<circle x="-1.038" y="1.218" radius="0.1778" width="0" layer="21"/>
 <text x="-0.792" y="1.218" size="1" layer="25">&gt;NAME</text>
 <text x="-0.792" y="-2.282" size="1" layer="27">&gt;VALUE</text>
 <wire x1="-0.902" y1="-0.892" x2="0.888" y2="-0.892" width="0.1" layer="39"/>
 <wire x1="0.888" y1="-0.892" x2="0.888" y2="0.898" width="0.1" layer="39"/>
 <wire x1="0.888" y1="0.898" x2="-0.902" y2="0.898" width="0.1" layer="39"/>
 <wire x1="-0.902" y1="0.898" x2="-0.902" y2="-0.892" width="0.1" layer="39"/>
+<wire x1="0.891" y1="-0.9" x2="0.891" y2="0.9" width="0.1" layer="21"/>
+<wire x1="0.891" y1="0.9" x2="-0.9" y2="0.9" width="0.1" layer="21"/>
+<wire x1="-0.9" y1="0.9" x2="-0.9" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-0.9" y1="-0.9" x2="0.891" y2="-0.9" width="0.1" layer="21"/>
 </package>
 </packages>
 </library>
@@ -4182,7 +4187,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="5mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="3mil"/>
+<param name="rlMinViaOuter" value="4mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="4mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
@@ -4893,20 +4898,39 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,1,3e5c3f4f79b578a6"/>
 <approved hash="19,1,dc3fdd8c367637c5"/>
 <approved hash="19,1,3e3e3f80797a78c4"/>
-<approved hash="5,1,e08d951edaf4af2b"/>
-<approved hash="5,1,61d365de07aa7013"/>
-<approved hash="5,16,e08d951edaf4af2b"/>
-<approved hash="5,16,61d365de07aa7013"/>
-<approved hash="23,1,bd837f437f02bdc2"/>
-<approved hash="23,1,b248ac2b104a7148"/>
-<approved hash="23,1,9ba598e4eb24a025"/>
-<approved hash="23,1,82feebbeeb488208"/>
-<approved hash="23,1,be0cfcccffbbbd7b"/>
-<approved hash="23,1,4bf6fa36faa64b66"/>
-<approved hash="23,1,0daa6acb2c6d2d6a"/>
-<approved hash="23,1,57c4b404b50156c1"/>
-<approved hash="23,1,18e29992989019e0"/>
-<approved hash="23,1,a1d96808a88aa8e0"/>
+<approved hash="5,1,1a699b336abf1916"/>
+<approved hash="5,1,ac017f3e7dee224b"/>
+<approved hash="5,1,15e518e3f603362f"/>
+<approved hash="5,1,235523f6fcf5c0a6"/>
+<approved hash="5,1,69cd984e9bb2e13a"/>
+<approved hash="5,1,d3eaa67bca3e4984"/>
+<approved hash="5,1,ac0cf51e3cd4a544"/>
+<approved hash="5,1,64c86604514bed71"/>
+<approved hash="5,1,c4e40e0a9353152f"/>
+<approved hash="5,1,f85c21ad21fec4ff"/>
+<approved hash="5,1,23fc191702ab5347"/>
+<approved hash="5,1,a9da671079248b12"/>
+<approved hash="5,1,a9da6714472aa2fd"/>
+<approved hash="5,1,6fb9d48a8234f396"/>
+<approved hash="5,1,1bd99cf680cf4b72"/>
+<approved hash="5,1,3364e3a350080f67"/>
+<approved hash="5,1,ea7b27a859185377"/>
+<approved hash="5,1,16c1b194472d55b3"/>
+<approved hash="5,1,6c02981aa592ef7c"/>
+<approved hash="5,1,1b8ee174f7849b88"/>
+<approved hash="5,1,c8c4f6ef4d214b36"/>
+<approved hash="5,1,6dab9c1760c193aa"/>
+<approved hash="5,1,ed9aa94b95f7f021"/>
+<approved hash="5,1,fed09c1df191f747"/>
+<approved hash="5,1,0ff9ba554bd854a7"/>
+<approved hash="5,1,f4c0caf34b014d0e"/>
+<approved hash="5,16,477b6714473690fc"/>
+<approved hash="5,16,1808d24d837cd45f"/>
+<approved hash="5,16,bdd480ae65fe5dbd"/>
+<approved hash="5,16,5be315e6a97ae457"/>
+<approved hash="5,16,23fc191702ab5347"/>
+<approved hash="5,16,ac0ce8e209b0d183"/>
+<approved hash="5,16,3364e3a350080f67"/>
 </errors>
 </board>
 </drawing>

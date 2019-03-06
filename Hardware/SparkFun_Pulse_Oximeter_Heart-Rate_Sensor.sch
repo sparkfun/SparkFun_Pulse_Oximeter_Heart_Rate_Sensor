@@ -16777,7 +16777,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.2032" layer="21"/>
 <smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
 <smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
 <smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
@@ -16791,10 +16791,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
 <rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.2032" layer="21"/>
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.2032" layer="21"/>
 </package>
 <package name="MSOP8">
 <description>&lt;b&gt;8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package&lt;/b&gt;&lt;p&gt;
@@ -19377,13 +19377,17 @@ Physical Characteristics
 <circle x="0.168" y="0.518" radius="0.11" width="0" layer="29"/>
 <circle x="-0.182" y="0.518" radius="0.11" width="0" layer="29"/>
 <circle x="-0.532" y="0.518" radius="0.11" width="0" layer="29"/>
-<circle x="-1.165" y="1.091" radius="0.14141875" width="0" layer="21"/>
+<circle x="-1.038" y="1.218" radius="0.1778" width="0" layer="21"/>
 <text x="-0.792" y="1.218" size="1" layer="25">&gt;NAME</text>
 <text x="-0.792" y="-2.282" size="1" layer="27">&gt;VALUE</text>
 <wire x1="-0.902" y1="-0.892" x2="0.888" y2="-0.892" width="0.1" layer="39"/>
 <wire x1="0.888" y1="-0.892" x2="0.888" y2="0.898" width="0.1" layer="39"/>
 <wire x1="0.888" y1="0.898" x2="-0.902" y2="0.898" width="0.1" layer="39"/>
 <wire x1="-0.902" y1="0.898" x2="-0.902" y2="-0.892" width="0.1" layer="39"/>
+<wire x1="0.891" y1="-0.9" x2="0.891" y2="0.9" width="0.1" layer="21"/>
+<wire x1="0.891" y1="0.9" x2="-0.9" y2="0.9" width="0.1" layer="21"/>
+<wire x1="-0.9" y1="0.9" x2="-0.9" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-0.9" y1="-0.9" x2="0.891" y2="-0.9" width="0.1" layer="21"/>
 </package>
 </packages>
 <symbols>
