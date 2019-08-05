@@ -159,7 +159,6 @@
 <dimension x1="25.4" y1="12.7" x2="0" y2="12.7" x3="12.7" y3="18.034" textsize="2.54" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="25.4" y1="0" x2="25.4" y2="12.7" x3="32.766" y3="6.35" textsize="2.54" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <text x="-1.524" y="23.114" size="2.54" layer="47" font="vector" ratio="15">Measurments in Inches</text>
-<text x="-23.368" y="-28.448" size="1.778" layer="51" font="vector">.5oz Copper</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
