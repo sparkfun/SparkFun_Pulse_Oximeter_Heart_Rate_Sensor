@@ -9,7 +9,7 @@ The SparkFun Pulse Oximeter and Heart-Rate Sensor is an I&sup2;C based [biometri
 the MAX32664 Bio Metric Sensor Hub and the MAX30101 Pulse Oximetry and Heart-Rate Module.
 
 The MAX30101 does all the sensing by utilizing its' internal LEDs to bounce light off the arteries and arterioles in your finger's subcutaneous layer and sensing how much light 
-is absorbed with its' photodetectors . This is known as (photoplethysmography)[https://en.wikipedia.org/wiki/Photoplethysmogram]. This data is passed onto and analyzed by the 
+is absorbed with its' photodetectors . This is known as [photoplethysmography](https://en.wikipedia.org/wiki/Photoplethysmogram). This data is passed onto and analyzed by the 
 MAX32664 which applies its' algorithms to determine heart rate and blood oxygen saturation (SpO2). The embedded algorithm uses digital filtering, pressure/position compensation, 
 advanced R-wave detection and automatic gain control to determine the heart rate in beats per minute while minimizing power.  SpO2 results are reported as percentage of hemoglobin 
 that is saturated with oxygen. It also provides useful information such as the sensor's confidence in its' reportings as well as a handy finger detection data point. To get the 
