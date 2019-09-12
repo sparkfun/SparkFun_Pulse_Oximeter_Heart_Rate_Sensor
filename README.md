@@ -27,7 +27,6 @@ Documentation
 --------------
 * **[Arduino Library](https://github.com/sparkfun/SparkFun_Bio_Sensor_Hub_Library)** - Arduino Library with Example Sketches
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-pulse-oximeter-and-heart-rate-monitor-hookup-guide)** - Basic hookup guide for the SparkFun Pulse Oximeter and Heart Rate Sensor.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 
 Product Versions
 ----------------
