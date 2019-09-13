@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -158,7 +158,7 @@
 <text x="-23.368" y="-25.4" size="2.032" layer="51" font="vector">Via on Pad for small BGA</text>
 <dimension x1="25.4" y1="12.7" x2="0" y2="12.7" x3="12.7" y3="18.034" textsize="2.54" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="25.4" y1="0" x2="25.4" y2="12.7" x3="32.766" y3="6.35" textsize="2.54" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<text x="-1.524" y="23.114" size="2.54" layer="47" font="vector" ratio="15">Measurments in Inches</text>
+<text x="-1.524" y="23.114" size="2.54" layer="47" font="vector" ratio="15">Measurements in Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
